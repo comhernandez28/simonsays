@@ -1,0 +1,173 @@
+body{
+  background-color: #223C38;
+  background-size: cover;
+}
+
+#game-container{
+  background-color: ;
+  margin-top: 20px;
+}
+#top-menu{
+  width: 405px;
+  margin-left: 10px;
+}
+#score{
+  background: #3D2C16;
+  border: 5px solid black;
+  margin: 0px 1px 0px 1px;
+  height: 45px;
+  width: 158px;
+  color: #8BC34A;
+}
+#start{
+  background-color: lightgreen;
+  border: 5px solid black;
+  margin: 0px 1px 0px 1px;
+  height: 45px;
+  width: 120px;
+  font-size: 1.7em;
+}
+#strict{
+ background-color: #EE6658;
+ border: 5px solid black;
+ margin: 0px 1px 0px 1px;
+ height: 45px;
+ width: 120px;
+ font-size: 1.7em;
+}
+#restart{
+  font-size: 1.7em;
+  background-color: lightblue;
+  border: 5px solid black;
+  margin-top: 20px;
+  margin-left: 50px;
+  height: 45px;
+  width: 320px;
+}
+#game-container-circle{
+  background-color: ;
+  border: 5px solid black;
+  height: 400px;
+  width: 380px;
+  margin-left: 25px;
+  border-radius: 100%;
+}
+#top-left{
+  background-color: green;
+  border-top-left-radius: 100%;
+}
+#top-right{
+  background-color: #AA0114;
+  border-top-right-radius: 100%;
+}
+#bottom-left{
+  background-color: #C69200;
+  border-bottom-left-radius: 100%;
+}
+#bottom-right{
+  background-color: #172D40;
+  border-bottom-right-radius: 100%;
+}
+.section{
+  background-color: grey;
+  border: 5px solid black;
+  height: 195px;
+  width: 185px;
+}
+.overlay {
+    background-color: ;
+    bottom: 0;
+    left: 0;
+    position: relative;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    width: 430px;
+    height: 400px;
+}
+
+
+/* Phone styles */
+@media (max-width: 767px) {
+
+  #game-container{
+    background-color: ;
+    margin-top: 20px;
+  }
+  #top-menu{
+    width: ;
+    margin-left: px;
+  }
+  #score{
+    background: #3D2C16;
+    border: 5px solid black;
+    margin: 0px 1px 0px 1px;
+    height: 45px;
+    width: 130px;
+    color: #8BC34A;
+    font-size: 1em;
+  }
+  #start{
+    background-color: lightgreen;
+    border: 5px solid black;
+    margin: 0px 1px 0px 1px;
+    height: 45px;
+    width: 100px;
+    font-size: 1.7em;
+  }
+  #strict{
+   background-color: #EE6658;
+   border: 5px solid black;
+   margin: 0px 1px 0px 1px;
+   height: 45px;
+   width: 100px;
+   font-size: 1.7em;
+  }
+  #restart{
+    font-size: 1.7em;
+    background-color: lightblue;
+    border: 5px solid black;
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 45px;
+    width: 200px;
+  }
+  #game-container-circle{
+    background-color: ;
+    border: 5px solid black;
+    height: 300px;
+    width: 280px;
+    margin-left: 25px;
+    border-radius: 100%;
+  }
+  #top-left{
+    background-color: green;
+    border-top-left-radius: 100%;
+  }
+  #top-right{
+    background-color: #AA0114;
+    border-top-right-radius: 100%;
+  }
+  #bottom-left{
+    background-color: #C69200;
+    border-bottom-left-radius: 100%;
+  }
+  #bottom-right{
+    background-color: #172D40;
+    border-bottom-right-radius: 100%;
+  }
+  .section{
+    background-color: grey;
+    border: 5px solid black;
+    height: 145px;
+    width: 135px;
+  }
+  .overlay {
+      width: 280px;
+      height: 300px;
+  }
+
+
+
+
+}
